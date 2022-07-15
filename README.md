@@ -1,28 +1,30 @@
-# Setup
+# Banana setup
 Bash script to install programming tools, packages and setup neovim.
-Please edit script to enable/disable tools and packages.
-## Systems
-- Debian
+Please edit the script to enable/disable tools and packages.
+~~No special reason calling this repo banana setup.~~ :joy:
+
+## Os
+- Debian/Ubuntu
 - Arch
 
-## Tools
-- G++/gcc
-- Nodejs
-- Neovim
-- Tree
-- Tmux
-- Git
-- Fzf
-- Bat
-- W3m
-- Npm
-- Python
+## Packages and tools
+- g++/gcc
+- python
+- nodejs
+- npm
+- neovim
+- tmux
+- git
+- tree
+- fzf
+- bat
+- w3m
 
-## Vim plugin manager
-- Vim plug
+## Neovim plugin manager
+- [vim-plug](https://github.com/junegunn/vim-plug)
 
-## Neovim Plugins
-- [ ] Coc (auto completion)
+## Neovim plugins
+- [ ] [Coc](https://github.com/neoclide/coc.nvim) (auto completion)
 - ### Extensions
 - - [ ] coc-html
 - - [ ] coc-css
@@ -30,8 +32,8 @@ Please edit script to enable/disable tools and packages.
 - - [ ] coc-tsserver
 - - [ ] coc-prettier
 - - [ ] coc-pairs
-- [x] Emmet
-- [x] Ale (linting engine)
-- [x] NightFox (colorscheme)
-- [x] Vimpolyglot (syntax highlighting)
-- [x] Vim dict (minimal autocompletion)
+- [x] [Emmet](https://github.com/mattn/emmet-vim)
+- [x] [Ale](https://github.com/dense-analysis/ale) (linting engine)
+- [x] [NightFox](https://github.com/EdenEast/nightfox.nvim) (colorscheme)
+- [x] [Vimpolyglot](https://github.com/EdenEast/nightfox.nvim) (syntax highlighting)
+- [x] [Vim dict](https://github.com/skywind3000/vim-auto-popmenu) (minimal autocompletion)
