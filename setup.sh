@@ -77,7 +77,7 @@ write_neovim_config  () {
   \"Plug 'mg979/vim-visual-multi', {'branch': 'master'}
   \" Nerd tree
   \"Plug 'scrooloose/nerdtree'
-  \" Iconsduskddusk
+  \" Icons
   \"Plug 'ryanoasis/vim-devicons'
   call plug#end()
 

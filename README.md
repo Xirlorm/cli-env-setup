@@ -26,14 +26,17 @@ Please edit the script to enable/disable tools and packages.
 ## Neovim plugins
 - [ ] [Coc](https://github.com/neoclide/coc.nvim) (auto completion)
 - ### Extensions
-- - [ ] coc-html
-- - [ ] coc-css
-- - [ ] coc-json
-- - [ ] coc-tsserver
-- - [ ] coc-prettier
-- - [ ] coc-pairs
+  - [ ] coc-html
+  - [ ] coc-css
+  - [ ] coc-json
+  - [ ] coc-tsserver
+  - [ ] coc-prettier
+  - [ ] coc-pairs
 - [x] [Emmet](https://github.com/mattn/emmet-vim)
 - [x] [Ale](https://github.com/dense-analysis/ale) (linting engine)
 - [x] [NightFox](https://github.com/EdenEast/nightfox.nvim) (colorscheme)
 - [x] [Vimpolyglot](https://github.com/EdenEast/nightfox.nvim) (syntax highlighting)
 - [x] [Vim dict](https://github.com/skywind3000/vim-auto-popmenu) (minimal autocompletion)
+- [ ] [Nerd tree](https://github.com/scrooloose/nerdtree-project-plugin)
+- [ ] [Dev icons](https://github.com/ryanoasis/vim-devicons)
+- [ ] [Vim multi](https://github.com/mg979/vim-visual-multi) (Mutli selector)
