@@ -10,3 +10,4 @@ export PATH
 export EDITOR='nvim'
 export BROWSER='w3m' 
 export HISTCONTROL=ignoredups
+. "$HOME/.cargo/env"
