@@ -11,16 +11,13 @@ set nonu rnu
 set hlsearch
 set autoindent
 set cursorline
-set tabstop=2 
-set shiftwidth=2
-set softtabstop=2
-set expandtab
 set nrformats=bin
+set scrolloff=1000
 set background=dark
 set redrawtime=1000
-set undofile
-set undodir=~/.cache/undo
 " let g:netrw_browse_split=4
+set undofile undodir=~/.cache/undo
+set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 
 
 " •••••••••••••••••••• Plugins ••••••••••••••••••••
@@ -74,7 +71,7 @@ call plug#end()
 " Initialize Coc Prettier extension
 "  command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 
-" Skywind3000 vim completion configurtaions
+" Skywind3000 vim completion configurations
 " enable this plugin for filetypes, '*' for all files.
 let g:apc_enable_ft = {'text':1, 'markdown':1, '*':1}
 
@@ -89,21 +86,20 @@ set shortmess+=c
 
 
 " ALE completion
- set omnifunc=ale#completion#OmniFunc
+set omnifunc=ale#completion#OmniFunc
 
 " Neovim inbuilt completion
- set omnifunc=syntaxcomplete#complete
+" set omnifunc=syntaxcomplete#complete
 
 if (has("termguicolors"))
   set termguicolors
 endif
-syntax enable
-
-" Set Colorscheme
-colorscheme duskfox
 
 " Syntax highlighting
 syntax on
+
+" Set Colorscheme
+colorscheme duskfox
 
 " Auto rust formatter
 let g:rustfmt_autosave=1
