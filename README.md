@@ -33,7 +33,7 @@ Marked tools are installed by default using the script
 - [ ] [Coc](https://github.com/neoclide/coc.nvim)
 - [x] [Vim dict](https://github.com/skywind3000/vim-auto-popmenu)
 ### Linting Engine
-- [x] [Ale](Engis://github.com/dense-analysis/ale)
+- [x] [Ale](https://github.com/dense-analysis/ale)
 ### Colorschemes 
 - [x] [NightFox](https://github.com/EdenEast/nightfox.nvim)
 - [x] [Falcon](https://github.com/fenetikm/falcon)
