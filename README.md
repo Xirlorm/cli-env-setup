@@ -1,10 +1,10 @@
 # Banana setup
-Personal neovim configuration file and install/setup scripts. 
+Personal Neovim configuration file and install/setup scripts. 
 Bash script to install programming tools, packages and setup neovim.
 
-!!Please edit the script to enable/disable tools and packages!!
-~~No special reason calling this repo banana setup.~~ Just a repo with
-setup configs and scripts
+!!Please edit script(s) to avoid unwanted installation of tools or plugins!!
+~~No special reason calling this repo banana setup.~~
+
 
 ## Os
 - Debian
@@ -29,20 +29,24 @@ setup configs and scripts
 
 ## Neovim plugins
 Marked tools are installed by default using the script
-- [ ] [Coc](https://github.com/neoclide/coc.nvim) (auto completion)
-- ### Extensions
-- - [ ] coc-html
-- - [ ] coc-css
-- - [ ] coc-json
-- - [ ] coc-tsserver
-- - [ ] coc-prettier
-- - [ ] coc-pairs
+### Completion plugins
+- [ ] [Coc](https://github.com/neoclide/coc.nvim)
+- [x] [Vim dict](https://github.com/skywind3000/vim-auto-popmenu)
+### Linting Engine
+- [x] [Ale](Engis://github.com/dense-analysis/ale)
+### Colorschemes 
+- [x] [NightFox](https://github.com/EdenEast/nightfox.nvim)
+- [x] [Falcon](https://github.com/fenetikm/falcon)
+- [x] [Vim-nightfly](https://github.com/bluz71/vim-nightfly-guicolors)
+- [x] [Dracula](https://github.com/dracula/vim)
+### Syntax Highlighting
+- [x] [Vimpolyglot](https://github.com/sheerun/vim-polyglot)
+### HTML CSS-like expression completion
 - [x] [Emmet](https://github.com/mattn/emmet-vim)
-- [x] [Ale](https://github.com/dense-analysis/ale) (linting engine)
-- [x] [NightFox](https://github.com/EdenEast/nightfox.nvim) (colorscheme)
-- [x] [Vimpolyglot](https://github.com/EdenEast/nightfox.nvim) (syntax highlighting)
-- [x] [Vim dict](https://github.com/skywind3000/vim-auto-popmenu) (minimal autocompletion)
+### Live server
 - [x] [Live-server](https://github.com/manzeloth/live-server)
+### Brackets and quotes autopair
+- [x] [Autopairs](https://github.com/jiangmiao/auto-pairs)
+### File Explorer with icons
 - [ ] [Nerd tree](https://github.com/scrooloose/nerdtree-project-plugin)
 - [ ] [Dev icons](https://github.com/ryanoasis/vim-devicons)
-- [ ] [Vim multi](https://github.com/mg979/vim-visual-multi) (Mutli selector)
