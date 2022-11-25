@@ -39,8 +39,8 @@ Checked plugins are installed by default using the scripts
 ### Commenter
 - [x] [Nerd commenter](https://github.com/preservim/nerdcommenter)
 ### File Explorer with icons
-- [ ] [Nerd tree](https://github.com/scrooloose/nerdtree-project-plugin)
-- [ ] [Dev icons](https://github.com/ryanoasis/vim-devicons)
+- [x] [Nerd tree](https://github.com/scrooloose/nerdtree-project-plugin)
+- [x] [Dev icons](https://github.com/ryanoasis/vim-devicons)
 ### HTML CSS-like expression completion
 - [x] [Emmet](https://github.com/mattn/emmet-vim)
 ### Linting Engine

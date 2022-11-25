@@ -3,14 +3,14 @@ filetype plugin on
 
 " •••••••••••••••••••••• Plugins ••••••••••••••••••••••
 call plug#begin()
-" Colorschemes
+" ColorSchemes
  Plug 'EdenEast/nightfox.nvim'
  Plug 'sainnhe/sonokai'
  Plug 'sainnhe/edge'
 
 " File explorer with icons
- " Plug 'scrooloose/nerdtree'
- " Plug 'ryanoasis/vim-devicons'
+ Plug 'scrooloose/nerdtree'
+ Plug 'ryanoasis/vim-devicons'
 
  " Plug 'neoclide/coc.nvim', {'branch': 'release'}
  Plug 'skywind3000/vim-auto-popmenu'       " Completion
@@ -66,6 +66,21 @@ set omnifunc=ale#completion#OmniFunc " ALE completion
 " let g:ale_sign_error = '>>'        " Set ALE error sign
 " let g:ale_sign_warning = '..'      " Set ALE warning sign
 let g:ale_lint_on_save = 1
+
+" Show number of errors and warnings
+function! LinterStatus() abort
+    let l:counts = ale#statusline#Count(bufnr(''))
+    let l:all_errors = l:counts.error + l:counts.style_error
+    let l:all_non_errors = l:counts.total - l:all_errors
+    return l:counts.total == 0 ? 'OK' : printf(
+        \   '%d⨉ %d⚠ ',
+        \   all_non_errors,
+        \   all_errors
+        \)
+endfunction
+set statusline+=%=
+set statusline+=\ %{LinterStatus()}
+
 
 " Neovim completion
 " set omnifunc=syntaxcomplete#complete
