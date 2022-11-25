@@ -3,50 +3,51 @@ Personal Neovim configuration file and install/setup scripts.
 Bash script to install programming tools, packages and setup neovim.
 
 !!Please edit script(s) to avoid unwanted installation of tools or plugins!!
-~~No special reason calling this repo banana setup.~~
-
 
 ## Os
-- Debian
 - Arch
+- Debian
 
 ## Packages, languages & tools
-- g++/gcc
-- python
-- rust
-- nodejs
-- npm
-- neovim
-- tmux
-- git
-- tree
-- fzf
-- bat
-- w3m
+- Bat
+- Fzf
+- Git
+- G++/gcc
+- Neovim
+- Nodejs
+- Npm
+- Python
+- Rust
+- Tmux
+- Tree
+- W3m
 
 ## Neovim plugin manager
 - [vim-plug](https://github.com/junegunn/vim-plug)
 
 ## Neovim plugins
-Marked tools are installed by default using the script
-### Completion plugins
-- [ ] [Coc](https://github.com/neoclide/coc.nvim)
-- [x] [Vim dict](https://github.com/skywind3000/vim-auto-popmenu)
-### Linting Engine
-- [x] [Ale](https://github.com/dense-analysis/ale)
+Checked plugins are installed by default using the scripts
+### Autopair Brackets, quotes...
+- [x] [Autopairs](https://github.com/jiangmiao/auto-pairs)
 ### Colorschemes 
 - [x] [NightFox](https://github.com/EdenEast/nightfox.nvim)
-- [x] [Falcon](https://github.com/fenetikm/falcon)
-- [x] [Vim-nightfly](https://github.com/bluz71/vim-nightfly-guicolors)
-- [x] [Dracula](https://github.com/dracula/vim)
-### Syntax Highlighting
-- [x] [Vimpolyglot](https://github.com/sheerun/vim-polyglot)
-### HTML CSS-like expression completion
-- [x] [Emmet](https://github.com/mattn/emmet-vim)
-### Live server
-- [x] [Live-server](https://github.com/manzeloth/live-server)
-### Brackets and quotes autopair
-- [x] [Autopairs](https://github.com/jiangmiao/auto-pairs)
+- [x] [Edge](https://github.com/sainhhe/edge)
+- [x] [Sonokai](https://github.com/sainhhe/sonokai)
+### Completion
+- [ ] [Coc](https://github.com/neoclide/coc.nvim)
+- [x] [Vim dict](https://github.com/skywind3000/vim-auto-popmenu)
+### Commenter
+- [x] [Nerd commenter](https://github.com/preservim/nerdcommenter)
 ### File Explorer with icons
 - [ ] [Nerd tree](https://github.com/scrooloose/nerdtree-project-plugin)
 - [ ] [Dev icons](https://github.com/ryanoasis/vim-devicons)
+### HTML CSS-like expression completion
+- [x] [Emmet](https://github.com/mattn/emmet-vim)
+### Linting Engine
+- [x] [Ale](https://github.com/dense-analysis/ale)
+### Live server
+- [x] [Live-server](https://github.com/manzeloth/live-server)
+### Status line
+- [x] [Vim airline](https://github.com/vim-airline/vim-airline)
+### Syntax Highlighting
+- [x] [Vimpolyglot](https://github.com/sheerun/vim-polyglot)
