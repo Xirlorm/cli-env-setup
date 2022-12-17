@@ -1,13 +1,12 @@
 # ~/.bash_profile
 
 #Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-  . ~/.bashrc
-fi
+[[ -f .bashrc ]] && . ~/.bashrc
 
-PATH=$PATH:$HOME/bin
-export PATH
+export PATH=$PATH:$HOME/bin
 export EDITOR='nvim'
 export BROWSER='w3m' 
 export HISTCONTROL=ignoredups
+export LANG=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
 . "$HOME/.cargo/env"

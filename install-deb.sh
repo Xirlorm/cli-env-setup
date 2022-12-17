@@ -11,7 +11,7 @@ sudo apt clean -y
 
 printf "Writing .bashrc, .bash_profile, .tmux_conf...\n"
 cat config/.bashrc >> ~/.bashrc
-cat config/.profile >> ~/.profile
+cat config/.bash_profile >> ~/.bash_profile
 cat config/.tmux.conf >> ~/.tmux.conf
 
 # Setting up neovim
