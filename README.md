@@ -32,7 +32,8 @@ Checked plugins are installed by default using the scripts
 ### Colorschemes 
 - [x] [NightFox](https://github.com/EdenEast/nightfox.nvim)
 - [x] [Edge](https://github.com/sainhhe/edge)
-- [x] [Sonokai](https://github.com/sainhhe/sonokai)
+- [x] [jellybeans](https://github.com/nanotech/jellybeans)
+- [x] [vim-one](https://github.com/rakr/vim-one)
 ### Completion
 - [ ] [Coc](https://github.com/neoclide/coc.nvim)
 - [x] [Vim dict](https://github.com/skywind3000/vim-auto-popmenu)
