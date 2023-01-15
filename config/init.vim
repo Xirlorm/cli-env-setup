@@ -66,6 +66,10 @@ let g:rustfmt_autosave = 1        " On save, formats rust code
 " Unhighlight text using escape key
 nnoremap <esc> :noh<return><esc>
 
+" Enable syntax highlighting for assembly files
+autocmd BufNew,BufRead *.asm set ft=nasm
+autocmd BufNew,BufRead *.s set ft=asm
+
 
 " %%%%%%%%%%%%%%%% Coc Completion configuration %%%%%%%%%%%%%%%%%
 " Coc language extensions
