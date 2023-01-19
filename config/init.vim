@@ -8,8 +8,10 @@ call plug#begin()
 " Colorschemes
 Plug 'EdenEast/nightfox.nvim'
 Plug 'sainnhe/edge'
+Plug 'sainnhe/sonokai'
 Plug 'nanotech/jellybeans.vim'
 Plug 'rakr/vim-one'
+Plug 'morhetz/gruvbox'
 
 " File explorer with icons
 Plug 'scrooloose/nerdtree'
