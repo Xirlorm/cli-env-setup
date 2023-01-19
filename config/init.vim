@@ -30,6 +30,8 @@ Plug 'vim-airline/vim-airline'                     " Status line
 Plug 'vim-airline/vim-airline-themes'              " Status line themes
 Plug 'rust-lang/rust.vim'                          " Rust plugin
 Plug 'ap/vim-css-color'                            " Display CSS color codes in nvim
+Plug 'tpope/vim-surround'                          " Easily modify surrounding pairs
+Plug 'tpope/vim-fugitive'                          " Git integration
 call plug#end()
 " @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
