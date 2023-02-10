@@ -3,19 +3,19 @@
 echo "Installing tools..."
 # Install tools
 sudo apt update
-sudo apt install gcc python3 nodejs npm neovim tmux fzf bat tree w3m -y
+sudo apt install gcc python3 nodejs npm neovim tmux fzf bat tree -y
 
 # Clean cache
 echo "cleaning cache..."
 sudo apt clean -y
 
-printf "Writing .bashrc, .bash_profile, .tmux_conf...\n"
+echo "Writing .bashrc, .bash_profile, .tmux_conf..."
 cat config/.bashrc >> ~/.bashrc
 cat config/.bash_profile >> ~/.bash_profile
 cat config/.tmux.conf >> ~/.tmux.conf
 
 # Setting up neovim
-printf "Writing neovim configuration...\n"
+echo "Writing neovim configuration..."
 if [ ! -d ~/.config/ ]; then
   mkdir -p ~/.config/{nvim,undo};
 elif [ ! -d ~/.config/nvim ]; then
@@ -23,7 +23,7 @@ elif [ ! -d ~/.config/nvim ]; then
 fi
 
 if [ -f ~/.config/nvim/init.vim ]; then
-  printf "Making backup of old init.vim as init.vim.bk ...\n"
+  echo "Making backup of old init.vim as init.vim.bk ..."
   mv ~/.config/nvim/init.vim ~/.config/nvim/init.vim.bk
 fi
 
@@ -31,19 +31,19 @@ cp config/init.vim ~/.config/nvim/init.vim
 
 
 # Install vim plug
-printf "Installing vim plug...\n"
+echo "Installing vim plug..."
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # Upgrade vim plug and install selected plugins
-printf "Installing plugins...\n"
+echo "Installing plugins..."
 nvim -c 'PlugUpgrade|PlugInstall|qa'
 
-printf "Installing live-server...\n"
+echo "Installing live-server..."
 npm i -g live-server
 
 # Install rust, cargo
-printf "Installing rust...\n"
+echo "Installing rust..."
 curl https://sh.rustup.rs -sSf | sh
 
-printf "Done!\n"
+echo "Done!"

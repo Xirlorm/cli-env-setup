@@ -20,7 +20,6 @@ Bash script to install programming tools, packages and setup neovim.
 - Rust
 - Tmux
 - Tree
-- W3m
 
 ## Neovim plugin manager
 - [vim-plug](https://github.com/junegunn/vim-plug)
@@ -31,17 +30,23 @@ Checked plugins are installed by default using the scripts
 - [x] [Autopairs](https://github.com/jiangmiao/auto-pairs)
 ### Colorschemes 
 - [x] [NightFox](https://github.com/EdenEast/nightfox.nvim)
-- [x] [Edge](https://github.com/sainhhe/edge)
+- [x] [Edge](https://github.com/sainnhe/edge)
+- [x] [Sonokai](https://github.com/sainnhe/sonokai)
 - [x] [jellybeans](https://github.com/nanotech/jellybeans)
 - [x] [vim-one](https://github.com/rakr/vim-one)
+- [x] [Gruvbox](https://github.com/morhetz/gruvbox)
 ### Completion
 - [ ] [Coc](https://github.com/neoclide/coc.nvim)
 - [x] [Vim dict](https://github.com/skywind3000/vim-auto-popmenu)
 ### Commenter
 - [x] [Nerd commenter](https://github.com/preservim/nerdcommenter)
+### CSS color highlighting
+- [x] [Vim CSS Color](https://github.com/ap/vim-css-color)
 ### File Explorer with icons
 - [x] [Nerd tree](https://github.com/scrooloose/nerdtree-project-plugin)
 - [x] [Dev icons](https://github.com/ryanoasis/vim-devicons)
+### Git integration
+- [x] [Vim-fugitive](https://github.com/tpope/vim-fugitive)
 ### HTML CSS-like expression completion
 - [x] [Emmet](https://github.com/mattn/emmet-vim)
 ### Linting Engine
