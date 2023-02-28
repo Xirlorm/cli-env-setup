@@ -149,7 +149,7 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
 
 
-" %%%%%%%%%%%%%%%% NERDtree Config %%%%%%%%%%%%%%%%%
+" %%%%%%%%%%%%%%%% NERDCommenter Config %%%%%%%%%%%%%%%%%
 " Create default mappings
 let g:NERDCreateDefaultMappings = 1
 " Add spaces after comment delimiters by default
