@@ -69,7 +69,7 @@ automagically configures itself when run the first time.
 
 ## Issues and Contributions
 
-If you encounter any issues or have suggestions for improvements, please [create an issue](https://github.com/yourusername/cli-environment-setup/issues) or submit a pull request. Your feedback and contributions are highly appreciated.
+If you encounter any issues or have suggestions for improvements, please [create an issue](https://github.com/Xirlorm/cli-env-setup/issues) or submit a pull request. Your feedback and contributions are highly appreciated.
 
 Happy coding!
 
