@@ -10,7 +10,7 @@ shopt -s globstar
 # Aliases
 alias mkdir="mkdir -p"
 alias python="python3"
-alias tree="tree -C --git-ignore --dirs-first"
+alias tree="tree -C --gitignore --dirsfirst"
 alias server="python -m http.server"
 alias grep="grep -E --color-always"
 alias vim="nvim"
