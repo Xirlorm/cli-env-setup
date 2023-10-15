@@ -1,0 +1,29 @@
+#~/.bashrc
+
+# Prompt
+# export PS1='[\[\e[1;32m\]\u \[\e[1;34m\]\W\[\e[0m\]]\$ '
+ export PS1='╭[\[\e[1;33m\]\u\[\e[0m\]]─(\[\e[1;34m\]\W\[\e[0m\])\n╰─\[\e[1;36m\]\$\[\e[0m\] '
+
+shopt -s autocd
+shopt -s globstar
+
+# Aliases
+alias mkdir="mkdir -p"
+alias python="python3"
+alias tree="tree -C --git-ignore --dirs-first"
+alias server="python -m http.server"
+alias grep="grep -E --color-always"
+alias vim="nvim"
+# alias g++='g++ -ggdb -Wall -Wextra -Weffc++ -pedantic-errors -Werror -Wconversion -Wsign-conversion'
+
+# For termux
+# alias rust-doc="server -d $PREFIX/share/doc/rust/html"
+
+gcl() {
+  git clone "git@github.com:username/$1.git"
+}
+
+gra() {
+  git remote add origin "git@github.com:username/$1.git"
+  git push --set-upstream origin main
+}

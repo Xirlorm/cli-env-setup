@@ -1,59 +1,80 @@
-# Banana setup
-Personal Neovim configuration file and install/setup scripts. 
-Bash script to install programming tools, packages and setup neovim.
+# CLI Development Environment Setup
 
-!!Please edit script(s) to avoid unwanted installation of tools or plugins!!
+Welcome to the CLI Development Environment Setup repository! This repository
+contains scripts to quickly set up a programming environment on Debian,
+Arch Linux, and Termux. It provides an easy way to install essential tools a
+development journey, including:
 
-## Os
-- Arch
-- Debian
+- `clang` or `gcc`: A compiler for C/C++.
+- `Node.js` and `npm`: For JavaScript/TypeScript development.
+- `Python`: A versatile programming language.
+- `Neovim`: A modern text editor.
+- `fzf`: A fuzzy finder for your shell.
+- `tree`: A command-line directory tree generator.
 
-## Packages, languages & tools
-- Bat
-- Fzf
-- Git
-- G++/gcc
-- Neovim
-- Nodejs
-- Npm
-- Python
-- Rust
-- Tmux
-- Tree
+Additionally, we configure Neovim using the setup from [Xirlorm/nvim](https://github.com/Xirlorm/nvim.git).
 
-## Neovim plugin manager
-- [vim-plug](https://github.com/junegunn/vim-plug)
+## Prerequisites
 
-## Neovim plugins
-Checked plugins are installed by default using the scripts
-### Autopair Brackets, quotes...
-- [x] [Autopairs](https://github.com/jiangmiao/auto-pairs)
-### Colorschemes 
-- [x] [NightFox](https://github.com/EdenEast/nightfox.nvim)
-- [x] [Edge](https://github.com/sainnhe/edge)
-- [x] [Sonokai](https://github.com/sainnhe/sonokai)
-- [x] [jellybeans](https://github.com/nanotech/jellybeans)
-- [x] [vim-one](https://github.com/rakr/vim-one)
-- [x] [Gruvbox](https://github.com/morhetz/gruvbox)
-### Completion
-- [ ] [Coc](https://github.com/neoclide/coc.nvim)
-- [x] [Vim dict](https://github.com/skywind3000/vim-auto-popmenu)
-### Commenter
-- [x] [Nerd commenter](https://github.com/preservim/nerdcommenter)
-### CSS color highlighting
-- [x] [Vim CSS Color](https://github.com/ap/vim-css-color)
-### File Explorer with icons
-- [x] [Nerd tree](https://github.com/scrooloose/nerdtree-project-plugin)
-- [x] [Dev icons](https://github.com/ryanoasis/vim-devicons)
-### Git integration
-- [x] [Vim-fugitive](https://github.com/tpope/vim-fugitive)
-### HTML CSS-like expression completion
-- [x] [Emmet](https://github.com/mattn/emmet-vim)
-### Linting Engine
-- [x] [Ale](https://github.com/dense-analysis/ale)
-### Live server
-- [x] [Live-server](https://github.com/manzeloth/live-server)
-### Status line
-- [x] [Vim airline](https://github.com/vim-airline/vim-airline)
-### Syntax Highlighting
-- [x] [Vimpolyglot](https://github.com/sheerun/vim-polyglot)
+Before you get started, ensure you have the following prerequisites installed on
+your system:
+
+- A compatible Linux distribution (Debian or Arch Linux) or Termux.
+- Git: To clone this repository and fetch configurations.
+
+## Installation
+
+Follow these simple steps to set up your development environment:
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Xirlorm/cli-env-setup.git
+   ```
+
+2. Change into the project directory:
+
+   ```bash
+   cd cli-env-setup
+   ```
+
+3. Run the setup script for your specific system:
+
+   - For Debian:
+
+     ```bash
+     chmod +x ./setup_debian.sh
+     ./setup_debian.sh
+     ```
+
+   - For Arch Linux:
+
+     ```bash
+     chmod +x ./setup_arch.sh
+     ./setup_arch.sh
+     ```
+
+   - For Termux:
+
+     ```bash
+     chmod +x ./setup_termux.sh
+     ./setup_termux.sh
+     ```
+
+4. Sit back and relax while the script installs and configures all the necessary
+tools for your programming environment.
+
+5. Once the setup is complete, open Neovim using the `nvim` command. Neovim
+automagically configures itself when run the first time.
+
+## Issues and Contributions
+
+If you encounter any issues or have suggestions for improvements, please [create an issue](https://github.com/yourusername/cli-environment-setup/issues) or submit a pull request. Your feedback and contributions are highly appreciated.
+
+Happy coding!
+
+---
+
+**Disclaimer:** This setup is tailored to my preferences and may not include every
+tool that suits everyone's needs. Feel free to customize it further to meet your
+specific requirements.
