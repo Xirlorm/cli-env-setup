@@ -12,7 +12,7 @@ alias mkdir="mkdir -p"
 alias python="python3"
 alias tree="tree -C --gitignore --dirsfirst"
 alias server="python -m http.server"
-alias grep="grep -E --color-always"
+alias grep="grep -E --color"
 alias vim="nvim"
 # alias g++='g++ -ggdb -Wall -Wextra -Weffc++ -pedantic-errors -Werror -Wconversion -Wsign-conversion'
 
